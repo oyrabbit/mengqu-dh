@@ -1,7 +1,11 @@
 <template>
-  <div>我是移动端首页</div>
+  <div>
+    <navigationVue />
+  </div>
 </template>
 
-<script setup></script>
+<script setup>
+import navigationVue from './components/navigation/index.vue'
+</script>
 
 <style lang="scss" scoped></style>
